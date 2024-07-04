@@ -5,6 +5,7 @@
 //  Created by Eliška Pavlů on 04.07.2024.
 //
 
+import SocketIO
 import SwiftUI
 
 struct ContentView: View {

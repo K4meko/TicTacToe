@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		EC54C8E72C369EA000279C43 /* TicTacToeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C8E62C369EA000279C43 /* TicTacToeApp.swift */; };
-		EC54C8E92C369EA000279C43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C8E82C369EA000279C43 /* ContentView.swift */; };
 		EC54C8EB2C369EA200279C43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC54C8EA2C369EA200279C43 /* Assets.xcassets */; };
 		EC54C8EE2C369EA200279C43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC54C8ED2C369EA200279C43 /* Preview Assets.xcassets */; };
 		EC54C8F82C369EA200279C43 /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C8F72C369EA200279C43 /* TicTacToeTests.swift */; };
 		EC54C9022C369EA200279C43 /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C9012C369EA200279C43 /* TicTacToeUITests.swift */; };
 		EC54C9042C369EA200279C43 /* TicTacToeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C9032C369EA200279C43 /* TicTacToeUITestsLaunchTests.swift */; };
+		EC54C9122C369EDA00279C43 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = EC54C9112C369EDA00279C43 /* SocketIO */; };
+		EC54C93C2C36A00D00279C43 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C9332C36A00D00279C43 /* BoardView.swift */; };
+		EC54C93D2C36A00D00279C43 /* CircleBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C9342C36A00D00279C43 /* CircleBoardView.swift */; };
+		EC54C93E2C36A00D00279C43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C9352C36A00D00279C43 /* ContentView.swift */; };
+		EC54C93F2C36A00D00279C43 /* CrossBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C9362C36A00D00279C43 /* CrossBoardView.swift */; };
+		EC54C9402C36A00D00279C43 /* JoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C9372C36A00D00279C43 /* JoinView.swift */; };
+		EC54C9412C36A00D00279C43 /* OnlineBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C9382C36A00D00279C43 /* OnlineBoardView.swift */; };
+		EC54C9422C36A00D00279C43 /* PickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C9392C36A00D00279C43 /* PickView.swift */; };
+		EC54C9432C36A00D00279C43 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C93A2C36A00D00279C43 /* SignInView.swift */; };
+		EC54C94B2C36A02200279C43 /* BoardViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C9442C36A02200279C43 /* BoardViewViewModel.swift */; };
+		EC54C94C2C36A02200279C43 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C9452C36A02200279C43 /* GameController.swift */; };
+		EC54C94D2C36A02200279C43 /* GameRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C9462C36A02200279C43 /* GameRoom.swift */; };
+		EC54C94E2C36A02200279C43 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C9472C36A02200279C43 /* GameView.swift */; };
+		EC54C94F2C36A02200279C43 /* Invite.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C9482C36A02200279C43 /* Invite.swift */; };
+		EC54C9502C36A02200279C43 /* OnlineGameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C9492C36A02200279C43 /* OnlineGameObject.swift */; };
+		EC54C9552C36A7EF00279C43 /* GridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54C9542C36A7EF00279C43 /* GridItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +51,6 @@
 /* Begin PBXFileReference section */
 		EC54C8E32C369EA000279C43 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC54C8E62C369EA000279C43 /* TicTacToeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeApp.swift; sourceTree = "<group>"; };
-		EC54C8E82C369EA000279C43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC54C8EA2C369EA200279C43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC54C8ED2C369EA200279C43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC54C8F32C369EA200279C43 /* TicTacToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +58,21 @@
 		EC54C8FD2C369EA200279C43 /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC54C9012C369EA200279C43 /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		EC54C9032C369EA200279C43 /* TicTacToeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC54C9332C36A00D00279C43 /* BoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		EC54C9342C36A00D00279C43 /* CircleBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleBoardView.swift; sourceTree = "<group>"; };
+		EC54C9352C36A00D00279C43 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC54C9362C36A00D00279C43 /* CrossBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossBoardView.swift; sourceTree = "<group>"; };
+		EC54C9372C36A00D00279C43 /* JoinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinView.swift; sourceTree = "<group>"; };
+		EC54C9382C36A00D00279C43 /* OnlineBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlineBoardView.swift; sourceTree = "<group>"; };
+		EC54C9392C36A00D00279C43 /* PickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickView.swift; sourceTree = "<group>"; };
+		EC54C93A2C36A00D00279C43 /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		EC54C9442C36A02200279C43 /* BoardViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardViewViewModel.swift; sourceTree = "<group>"; };
+		EC54C9452C36A02200279C43 /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		EC54C9462C36A02200279C43 /* GameRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameRoom.swift; sourceTree = "<group>"; };
+		EC54C9472C36A02200279C43 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		EC54C9482C36A02200279C43 /* Invite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invite.swift; sourceTree = "<group>"; };
+		EC54C9492C36A02200279C43 /* OnlineGameObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlineGameObject.swift; sourceTree = "<group>"; };
+		EC54C9542C36A7EF00279C43 /* GridItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC54C9122C369EDA00279C43 /* SocketIO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +124,12 @@
 		EC54C8E52C369EA000279C43 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				EC54C94A2C36A02200279C43 /* Logic */,
+				EC54C93B2C36A00D00279C43 /* Views */,
 				EC54C8E62C369EA000279C43 /* TicTacToeApp.swift */,
-				EC54C8E82C369EA000279C43 /* ContentView.swift */,
 				EC54C8EA2C369EA200279C43 /* Assets.xcassets */,
 				EC54C8EC2C369EA200279C43 /* Preview Content */,
+				EC54C9542C36A7EF00279C43 /* GridItem.swift */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -127,6 +159,34 @@
 			path = TicTacToeUITests;
 			sourceTree = "<group>";
 		};
+		EC54C93B2C36A00D00279C43 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC54C9332C36A00D00279C43 /* BoardView.swift */,
+				EC54C9342C36A00D00279C43 /* CircleBoardView.swift */,
+				EC54C9352C36A00D00279C43 /* ContentView.swift */,
+				EC54C9362C36A00D00279C43 /* CrossBoardView.swift */,
+				EC54C9372C36A00D00279C43 /* JoinView.swift */,
+				EC54C9382C36A00D00279C43 /* OnlineBoardView.swift */,
+				EC54C9392C36A00D00279C43 /* PickView.swift */,
+				EC54C93A2C36A00D00279C43 /* SignInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC54C94A2C36A02200279C43 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				EC54C9442C36A02200279C43 /* BoardViewViewModel.swift */,
+				EC54C9452C36A02200279C43 /* GameController.swift */,
+				EC54C9462C36A02200279C43 /* GameRoom.swift */,
+				EC54C9472C36A02200279C43 /* GameView.swift */,
+				EC54C9482C36A02200279C43 /* Invite.swift */,
+				EC54C9492C36A02200279C43 /* OnlineGameObject.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +203,9 @@
 			dependencies = (
 			);
 			name = TicTacToe;
+			packageProductDependencies = (
+				EC54C9112C369EDA00279C43 /* SocketIO */,
+			);
 			productName = TicTacToe;
 			productReference = EC54C8E32C369EA000279C43 /* TicTacToe.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +278,9 @@
 				Base,
 			);
 			mainGroup = EC54C8DA2C369EA000279C43;
+			packageReferences = (
+				EC54C9102C369EDA00279C43 /* XCRemoteSwiftPackageReference "socket" */,
+			);
 			productRefGroup = EC54C8E42C369EA000279C43 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +323,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC54C8E92C369EA000279C43 /* ContentView.swift in Sources */,
+				EC54C9422C36A00D00279C43 /* PickView.swift in Sources */,
+				EC54C94C2C36A02200279C43 /* GameController.swift in Sources */,
+				EC54C9412C36A00D00279C43 /* OnlineBoardView.swift in Sources */,
+				EC54C93C2C36A00D00279C43 /* BoardView.swift in Sources */,
+				EC54C93E2C36A00D00279C43 /* ContentView.swift in Sources */,
+				EC54C94D2C36A02200279C43 /* GameRoom.swift in Sources */,
+				EC54C94E2C36A02200279C43 /* GameView.swift in Sources */,
+				EC54C9502C36A02200279C43 /* OnlineGameObject.swift in Sources */,
+				EC54C9432C36A00D00279C43 /* SignInView.swift in Sources */,
+				EC54C94B2C36A02200279C43 /* BoardViewViewModel.swift in Sources */,
+				EC54C93D2C36A00D00279C43 /* CircleBoardView.swift in Sources */,
+				EC54C94F2C36A02200279C43 /* Invite.swift in Sources */,
+				EC54C93F2C36A00D00279C43 /* CrossBoardView.swift in Sources */,
+				EC54C9402C36A00D00279C43 /* JoinView.swift in Sources */,
+				EC54C9552C36A7EF00279C43 /* GridItem.swift in Sources */,
 				EC54C8E72C369EA000279C43 /* TicTacToeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,6 +668,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC54C9102C369EDA00279C43 /* XCRemoteSwiftPackageReference "socket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC54C9112C369EDA00279C43 /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC54C9102C369EDA00279C43 /* XCRemoteSwiftPackageReference "socket" */;
+			productName = SocketIO;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EC54C8DB2C369EA000279C43 /* Project object */;
 }
