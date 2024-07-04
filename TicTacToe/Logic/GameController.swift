@@ -38,15 +38,12 @@ class GameController: ObservableObject {
         items = Array(repeating: GridItemView(), count: 9)
         self.gameId = UUID.init().uuidString
         socket.emit("join", [gameId])
-        isCross = true
+       // isCross = true
     }
     func makeMove(atIndex index: Int) {
         socket.emit("move", MoveData(room: self.gameId, index: index))
-        if items[index].changeState(newState: isCross ? .cross : .circle) {
-            isCross.toggle()
-
-        }
-       
+        if items[index].changeState(newState: isCross ? .cross : .circle) { }
+        isCross.toggle()
         
     }
     
@@ -60,7 +57,6 @@ class GameController: ObservableObject {
         
         socket.on("updateGame") { data, _ in
            // print(data)
-            
             let jsonString =
            """
                                     \(data)
@@ -69,12 +65,12 @@ class GameController: ObservableObject {
             do {
                     let games = try JSONDecoder().decode([Game].self, from: jsonData)
                    // print(games)
-//                if games.first?.currentPlayer == 1{
-//                    self.isCross = false
-//                }
-//                else{
-//                    self.isCross = true
-//                }
+                if games.first?.currentPlayer == 1{
+                    self.isCross = false
+                }
+                else{
+                    self.isCross = true
+                }
                 
                 guard let items_ = games.first?.board else {return}
                 for i in 0...8{
@@ -93,7 +89,6 @@ class GameController: ObservableObject {
                 } catch {
                     print("Error decoding JSON: \(error)")
                 }
-            print(self.isCross)
         }
         socket.on(clientEvent: .connect) {data, ack in
             //print("socket connected")

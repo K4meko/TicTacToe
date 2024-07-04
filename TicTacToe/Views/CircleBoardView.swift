@@ -63,9 +63,7 @@ struct CircleBoardView: View {
                 })
                 
                 .frame(width: 315, height: 315)
-            Button(action: {controller.resetGame()
-                controller.isCross = true
-            }, label: {
+                Button(action: {controller.resetGame()}, label: {
                     Text("Reset game").frame(width: 200, height: 50).background(.red).clipShape(RoundedRectangle(cornerRadius:10)).foregroundStyle(.white).padding(50)
                 })            }.onAppear(){
                     // controller.startListeningForMoves()
@@ -73,4 +71,9 @@ struct CircleBoardView: View {
         }
         
     }
+
+#Preview {
+    CircleBoardView()
+}
+
 
