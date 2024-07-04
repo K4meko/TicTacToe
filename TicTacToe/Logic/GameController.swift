@@ -4,7 +4,7 @@ import SocketIO
 
 //var viewmodel: OnlineGameObject = OnlineGameObject
 
-let manager = SocketManager(socketURL: URL(string: "http://localhost:3000")!, config: [.log(false), .compress])
+let manager = SocketManager(socketURL: URL(string: "https://ttt.matyashimmer.eu/")!, config: [.log(false), .compress])
 
 let socket = manager.defaultSocket
 
